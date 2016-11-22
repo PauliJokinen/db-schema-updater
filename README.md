@@ -13,5 +13,6 @@ e.g.
 
 035UpdateUserTable.sql
 
-Runs the scripts against the DB in the above order. Later added will be run again the DB after their addition to file system.
-Script remembers which scripts I has already run and stores the current version information at the DB table.
+Runs the scripts against the DB in the above order. Later added will be run against the DB after their addition to file system.
+Scripts already run, won't be run because script keeps track of the point upto the scripts have been run in a DB table.
+
