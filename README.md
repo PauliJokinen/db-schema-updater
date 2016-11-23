@@ -2,12 +2,15 @@
 schema-enginge.sh Updates DB schema from numbered files in scripts folder and keeps track of the current version of db at DB
 
 e.g.
+
 010.CreateTables.sql
+
 014CreateUserTable.sql
 
 -- later added
 
 025.PopulateUserTable.sql
+
 035UpdateUserTable.sql
 
 Runs the scripts against the DB in the above order. Later added will be run against the DB after their addition to scripts folder.
