@@ -25,3 +25,14 @@ It is the script number 120
 Script execution stops there
 to proceed one may rename the table name of the table being created or delete the erroneus script and run the schema-engine.sh again 
 
+Tips:
+
+To get the script demo working, download git for windows according to these instructions
+https://www.atlassian.com/git/tutorials/install-git/windows
+
+In the installation, accept the defaults options on all questions
+
+Next clone:
+
+
+
