@@ -17,7 +17,7 @@ Runs the scripts against the DB in the above order. Later added will be run agai
 
 Scripts already run, won't be run because schema-engine.sh script keeps track of the point upto the scripts in scripts folder have been run. (in DB) 
 
-Prerequisites:
+## Prerequisites:
 
 Postgresql installed
 
@@ -27,12 +27,13 @@ demodb created
 
 script user created at the postgre sql and given full rigths to demodb
 
+## TODO:
 
 TODO1: parameterize the demodb in script to any db that is needed
 
 TODO2: script the prerequisites above e.g. with ansible 
 
-TEST Scripts: 
+## TEST Scripts: 
 
 Contained test scripts in scripts folder include erroneus script to test schema-engine.sh script's error behavior  
 Script execution stops at erroneus script 120* and dirty_transaction file is appears in the engine directory
