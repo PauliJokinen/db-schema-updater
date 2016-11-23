@@ -1,0 +1,277 @@
+-------------------------------------------------------------------
+psql:engine-db-scripts/create-shema-version-table.sql:4: NOTICE:  relation "schema_version" already exists, skipping
+CREATE TABLE
+-------------------------------------------------------------------
+psql:engine-db-scripts/create-shema-version-table.sql:4: NOTICE:  relation "schema_version" already exists, skipping
+CREATE TABLE
+No current version number... using -1
+current_version=-1
+executing 005moi.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(005);
+INSERT 0 1
+DELETE 0
+schema number succesfully updated in db
+executing 010createtables.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(010);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 024.createtable.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(024);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 033abas.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(033);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 100hei.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(100);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+-------------------------------------------------------------------
+psql:engine-db-scripts/create-shema-version-table.sql:4: NOTICE:  relation "schema_version" already exists, skipping
+CREATE TABLE
+current_version=100
+-------------------------------------------------------------------
+psql:engine-db-scripts/create-shema-version-table.sql:4: NOTICE:  relation "schema_version" already exists, skipping
+CREATE TABLE
+current_version=100
+-------------------------------------------------------------------
+psql:engine-db-scripts/create-shema-version-table.sql:4: NOTICE:  relation "schema_version" already exists, skipping
+CREATE TABLE
+current_version=100
+-------------------------------------------------------------------
+psql:engine-db-scripts/create-shema-version-table.sql:4: NOTICE:  relation "schema_version" already exists, skipping
+CREATE TABLE
+current_version=100
+executing 120hei_error.sql
+execution succeeded - updating db schema number
+insert into schema_version values(120);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 130hei_correct.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(130);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+-------------------------------------------------------------------
+---------New Script Run--------------------------------------------
+-------------------------------------------------------------------
+psql:engine-db-scripts/create-shema-version-table.sql:4: NOTICE:  relation "schema_version" already exists, skipping
+CREATE TABLE
+No current version number... using -1
+current_version=-1
+executing 005moi.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(005);
+INSERT 0 1
+DELETE 0
+schema number succesfully updated in db
+executing 010createtables.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(010);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 024.createtable.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(024);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 033abas.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(033);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 100hei.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(100);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 120hei_error.sql
+execution succeeded - updating db schema number
+insert into schema_version values(120);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 130hei_correct.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(130);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+-------------------------------------------------------------------
+---------New Script Run--------------------------------------------
+-------------------------------------------------------------------
+psql:engine-db-scripts/create-shema-version-table.sql:4: NOTICE:  relation "schema_version" already exists, skipping
+CREATE TABLE
+No current version number... using -1
+current_version=-1
+executing 005moi.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(005);
+INSERT 0 1
+DELETE 0
+schema number succesfully updated in db
+executing 010createtables.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(010);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 024.createtable.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(024);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 033abas.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(033);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 100hei.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(100);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 120hei_error.sql
+-------------------------------------------------------------------
+---------New Script Run--------------------------------------------
+-------------------------------------------------------------------
+psql:engine-db-scripts/create-shema-version-table.sql:4: NOTICE:  relation "schema_version" already exists, skipping
+CREATE TABLE
+current_version=100
+executing 120hei_error.sql
+-------------------------------------------------------------------
+---------New Script Run--------------------------------------------
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+---------New Script Run--------------------------------------------
+-------------------------------------------------------------------
+psql:engine-db-scripts/create-shema-version-table.sql:4: NOTICE:  relation "schema_version" already exists, skipping
+CREATE TABLE
+current_version=100
+executing 130hei_correct.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(130);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+-------------------------------------------------------------------
+---------New Script Run--------------------------------------------
+-------------------------------------------------------------------
+psql:engine-db-scripts/create-shema-version-table.sql:4: NOTICE:  relation "schema_version" already exists, skipping
+CREATE TABLE
+current_version=130
+-------------------------------------------------------------------
+---------New Script Run--------------------------------------------
+-------------------------------------------------------------------
+psql:engine-db-scripts/create-shema-version-table.sql:4: NOTICE:  relation "schema_version" already exists, skipping
+CREATE TABLE
+current_version=130
+-------------------------------------------------------------------
+---------New Script Run--------------------------------------------
+-------------------------------------------------------------------
+psql:engine-db-scripts/create-shema-version-table.sql:4: NOTICE:  relation "schema_version" already exists, skipping
+CREATE TABLE
+current_version=130
+-------------------------------------------------------------------
+---------New Script Run--------------------------------------------
+-------------------------------------------------------------------
+psql:engine-db-scripts/create-shema-version-table.sql:4: NOTICE:  relation "schema_version" already exists, skipping
+CREATE TABLE
+current_version=130
+-------------------------------------------------------------------
+---------New Script Run--------------------------------------------
+-------------------------------------------------------------------
+psql:engine-db-scripts/create-shema-version-table.sql:4: NOTICE:  relation "schema_version" already exists, skipping
+CREATE TABLE
+No current version number... using -1
+current_version=-1
+executing 005moi.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(005);
+INSERT 0 1
+DELETE 0
+schema number succesfully updated in db
+executing 010createtables.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(010);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 024.createtable.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(024);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 033abas.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(033);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 100hei.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(100);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
+executing 120hei_error.sql
+psql:../scripts/120hei_error.sql:20: ERROR:  relation "hei" already exists
+-------------------------------------------------------------------
+---------New Script Run--------------------------------------------
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+---------New Script Run--------------------------------------------
+-------------------------------------------------------------------
+psql:engine-db-scripts/create-shema-version-table.sql:4: NOTICE:  relation "schema_version" already exists, skipping
+CREATE TABLE
+current_version=100
+executing 130hei_correct.sql
+CREATE TABLE
+execution succeeded - updating db schema number
+insert into schema_version values(130);
+INSERT 0 1
+DELETE 1
+schema number succesfully updated in db
