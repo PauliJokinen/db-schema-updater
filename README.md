@@ -17,13 +17,29 @@ Runs the scripts against the DB in the above order. Later added will be run agai
 
 Scripts already run, won't be run because schema-engine.sh script keeps track of the point upto the scripts in scripts folder have been run. (in DB) 
 
-Srcipt expects that the script unix user has full rights to the postgre demodb i.e. finer security has not been implemented yet.
+Prerequisites:
 
-TODO: provision scripts for the script solution to ease its taking into use
-TODO: parameterize the demodb in script to any db that is needed
+Postgresql installed
+
+Postgresql client installed = psql
+
+demodb created
+
+script user created at the postgre sql and given full rigths to demodb
+
+
+TODO1: parameterize the demodb in script to any db that is needed
+
+TODO2: script the prerequisites above e.g. with ansible 
 
 TEST Scripts: 
-Contained test scripts include erroneus script to test script's error behavior  
-It is the script number 120
-Script execution stops there
-to proceed one may rename the table name of the table being created or delete the erroneus script and run the schema-engine.sh again 
+
+Contained test scripts in scripts folder include erroneus script to test schema-engine.sh script's error behavior  
+Script execution stops at erroneus script 120* and dirty_transaction file is appears in the engine directory
+This simulates the error...
+
+To simulate solving the error: 
+one may rename the table being created in 120* script or delete the erroneus script all together 
+remove dirty_transaction file
+run the schema-engine.sh again continue running rest of the scripts
+
